@@ -1,0 +1,14 @@
+name: CrystalPlugin
+version: 1.0.0
+main: me.yourname.CrystalPlugin.CrystalPlugin
+api-version: '1.21'
+author: CrystalPlayz
+description: My awesome plugin
+commands:
+  yourplugin:
+    description: Main plugin command
+    usage: /<command>
+permissions:
+  yourplugin.admin:
+    description: Admin permissions
+    default: op
